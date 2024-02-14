@@ -1,3 +1,4 @@
+/*Program to print the largest number among three numbers input by the user.*/
 #include<stdio.h>
 
 void main()

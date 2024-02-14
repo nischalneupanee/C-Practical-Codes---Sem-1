@@ -1,3 +1,4 @@
+//Program to find area and perimeter of a rectangle.
 #include<stdio.h>
 
 void main()

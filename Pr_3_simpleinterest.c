@@ -1,3 +1,4 @@
+//Program to find simple interest.
 #include<stdio.h>
 
 void main()

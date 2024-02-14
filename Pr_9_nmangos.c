@@ -1,3 +1,4 @@
+//Program to find price of n mangos given the price of a dozen mangos.
 #include<stdio.h>
  
 void main()

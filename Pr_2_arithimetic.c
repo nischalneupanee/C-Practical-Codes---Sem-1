@@ -1,3 +1,4 @@
+//Program to add, subtract, multiply, and divide two whole numbers.
 #include<stdio.h>
 
 void main()
@@ -11,7 +12,7 @@ void main()
     add = num1 + num2;
     printf("The sum of %d and %d is %d\n",num1,num2,add);
     sub = num1 - num2;
-    printf("The substraction of %d and %d is %d\n",num1,num2,sub);
+    printf("The subtraction of %d and %d is %d\n",num1,num2,sub);
     mul = num1 * num2;
     printf("The multiplication of %d and %d is %d\n",num1,num2,mul);
     div = num1 / num2;

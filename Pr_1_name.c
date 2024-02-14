@@ -1,3 +1,4 @@
+//Program to display your name using characters.
 #include<stdio.h>
 
 void main(){

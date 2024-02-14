@@ -1,3 +1,4 @@
+//Program to print a six digit integer in reverse order.
 #include<stdio.h>
 
 void main()

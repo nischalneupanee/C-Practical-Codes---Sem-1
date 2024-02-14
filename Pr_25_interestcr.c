@@ -13,26 +13,43 @@ At the time of withdrawal a customer data is given with the amount deposited and
 number of years the money has been with the bank. Write a program to obtain the money in
 the customer’s account and the interest credited at the time on withdrawal.*/
 
-#include<stdio.h>
+#include <stdio.h>
+#include<math.h>
 
 void main()
 {
     int years;
-    float deposit,rate;
+    float deposit, rate, amount, interest;
     printf("Enter the deposit amount: ");
-    scanf("%f",&deposit);
+    scanf("%f", &deposit);
     printf("Enter the years you want to deposit: ");
-    scanf("%d",&years);
-    if(years>=2)
+    scanf("%d", &years);
+    if (deposit<1000 && years>=2)
     {
-        if (deposit<1000)
-        {
-            rate = 0.07;
-        }
-        else
-        {
-            rate 
-        }
-        
+        rate = 0.05;
     }
+    else if (deposit>=1000 && deposit<=5000 && years>=2)
+    {
+        rate = 0.07;
+    }
+    else if (deposit>5000 && years>=1)
+    {
+        rate = 0.08;
+    }
+    else if (years>=5)
+    {
+        rate = 0.1;
+    }
+    else
+    {
+        rate = 0.3;
+    }
+    amount = deposit * pow(1+rate,years);
+    interest = amount - deposit;
+    printf("You have Rs%f in your account.\n",amount);
+    printf("Your calculate interest is Rs%f",interest);
+    
+
+    
+    
 }

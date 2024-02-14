@@ -1,3 +1,7 @@
+/*Given marks in five subjects. Write a program (a) to display “PASS” or “FAIL” if assumed
+pass marks is 45 in each subject, (b) to find percentage of marks obtained, and (c) to find
+division for “PASS” students assuming that 80% and above for “DISTINCTION”, 60% and
+above for “FIRST DIVISION” otherwise “SECOND DIVISION”.*/
 #include<stdio.h>
 
 void main()

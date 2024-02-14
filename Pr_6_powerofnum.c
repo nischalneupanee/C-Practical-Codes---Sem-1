@@ -1,3 +1,4 @@
+//Program to find power of a given number. Hint: pow(a,b), a and b are user inputs.
 #include<stdio.h>
 
  void main() {

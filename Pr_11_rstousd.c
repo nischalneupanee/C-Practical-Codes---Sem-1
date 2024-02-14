@@ -1,3 +1,4 @@
+//Program to find the rupee equivalent of U.S. dollars.
 #include<stdio.h>
 
 void main()

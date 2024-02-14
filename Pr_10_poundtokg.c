@@ -1,3 +1,4 @@
+//Program to convert pounds to kilograms.
 #include<stdio.h>
 
 void main()

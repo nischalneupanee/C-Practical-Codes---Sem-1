@@ -1,3 +1,6 @@
+/*Jet Company gives 5% commission to its salesman if their monthly sales are less than Rs.
+10,000 and a 10% commission if it is equal to or greater than Rs. 10,000. Write a program to
+calculate commission at the end of the month.*/
 #include<stdio.h>
 
 void main()

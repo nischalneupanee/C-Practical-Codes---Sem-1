@@ -1,3 +1,9 @@
+/*Program to calculate discount
+a) If purchased amount is greater than or equal to 5000, discount is 10%
+b) If purchased amount is greater than or equal to 4000 and less than 5000, discount is 7%
+c) If purchased amount is greater than or equal to 3000 and less than 4000, discount is 5%
+d) If purchased amount is greater than or equal to 2000 and less than 3000, discount is 3%
+e) If purchased amount is less than 2000, discount is 2%*/
 #include<stdio.h>
 
 void main()
