@@ -13,11 +13,14 @@ void main()
         float root1 = (-b + sqrt(discriminant)) / (2*a);
         float root2 = (-b - sqrt(discriminant)) / (2*a);
 
-        printf("Root 1: %f\n", root1);
-        printf("Root 2: %f\n", root2);
+        printf("Root 1: %.2f\n", root1);
+        printf("Root 2: %.2f\n", root2);
     } 
     else {
-        printf("The roots are imaginary.\n");
+        float realPart = -b / (2*a);
+        float imaginaryPart = sqrt(-discriminant) / (2*a);
+        printf("Root 1:  %.2f+%.2fi",  realPart, imaginaryPart);
+        printf("Root 1:  %.2f-%.2fi",  realPart, imaginaryPart);
     }
     
 }
