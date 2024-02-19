@@ -19,18 +19,18 @@ void main()
         
     }
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < m; j++)
         {
             B[i][j]=A[j][i];
         }
         
     }
     printf("The transpose matrix:\n");
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < m; j++)
         {
             printf("%d\t",B[i][j]);
         }
