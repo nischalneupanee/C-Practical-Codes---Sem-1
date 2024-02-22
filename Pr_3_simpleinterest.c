@@ -1,5 +1,5 @@
 //Program to find simple interest.#include<stdio.h>
-
+#include<stdio.h>
 void main()
 {
     float principal,time, rate, SI;

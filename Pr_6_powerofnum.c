@@ -1,15 +1,13 @@
 //Program to find power of a given number. Hint: pow(a,b), a and b are user inputs.
 #include<stdio.h>
+#include<math.h>
 
  void main() {
-    int num , pow, result=1;
+    int num ,result,exp;
     printf("Enter the number:\t");
     scanf("%d",&num);
     printf("Enter the exponent:\t");
-    scanf("%d",&pow);
-    while(pow!=0){
-         result=result*num;
-         --pow;
-         }
+    scanf("%d",&exp);
+    result = pow(num,exp);
     printf("==>%d",result);
  }

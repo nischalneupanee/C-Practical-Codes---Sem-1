@@ -6,7 +6,7 @@ void main()
     int num,remainder,sum=0;
     printf("Enter the number:");
     scanf("%d",&num);
-    for(int i;i<5;i++)
+    for(int i=0;i<5;i++)
     {
         remainder = num%10;
         sum = sum + remainder;
