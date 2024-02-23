@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
 {
-    int A[4][4],B[4][4],m,n;
+    int A[4][4],B[4][4];
     printf("Enter the 4x4 matrix:\n");
     for (int i = 0; i < 4; i++)
     {
