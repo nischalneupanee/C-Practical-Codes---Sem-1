@@ -9,7 +9,7 @@ void main()
     for (int i = 0; i <= 100; i++)
     {
         farh = i*(9/5)+32;
-        printf("%dC = %.2fF\n",i,farh);
+        printf("%dC = %.2fF\t",i,farh);
     }
     
 }

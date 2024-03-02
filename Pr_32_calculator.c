@@ -1,3 +1,5 @@
+/*Write a program using switch statement to develop a simple calculator for +, -, *, /, and %
+operators.*/
 #include <stdio.h>
 
 int main() {
@@ -17,28 +19,25 @@ int main() {
         switch (oper) {
             case 'a':
                 result = num1 + num2;
-                printf("Add = %.2f\n", result);
                 break;
             
             case 's':
                 result = num1 - num2;
-                printf("Subtraction = %.2f\n", result);
                 break;
             
             case 'd':
                 result = num1 / num2;
-                printf("Division = %.2f\n", result);
                 break;
             
             case 'm':
                 result = num1 * num2;
-                printf("Multiplication = %.2f\n", result);
                 break;
             
             default:
                 printf("invalid choice!!!\n");
                 break;
         }
+        printf("Result = %.2f\n", result);
 
         printf("Enter y to continue or else to exit: ");
         scanf(" %c", &choice);

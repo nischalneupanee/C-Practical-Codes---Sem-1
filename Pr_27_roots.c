@@ -1,3 +1,5 @@
+//Program to find the roots of a quadratic equation using discriminant.
+
 #include <stdio.h>
 #include <math.h>
 

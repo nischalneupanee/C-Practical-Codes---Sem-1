@@ -20,6 +20,7 @@ void main()
     do
     {
         printf("Nischal Neupane\t");
+        count --;
     } while (count>0);
     
 
