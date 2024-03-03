@@ -1,3 +1,11 @@
+/*Program using function to calculate and return sum of following series up to n terms; where
+x and n are supposed as passed by main program; sum = x-x
+2
++x3
+-x
+4
++..…
+*/
 #include<stdio.h>
 #include<math.h>
 

@@ -4,7 +4,7 @@ the matrix.*/
 
 void main()
 {
-    int A[3][3],sum=0;
+    int A[3][3],sum=0 ;
     printf("Enter the matrix a:\n ");
     for (int i = 0; i < 3; i++)
     {
