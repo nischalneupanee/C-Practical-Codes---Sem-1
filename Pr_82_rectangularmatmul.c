@@ -1,3 +1,4 @@
+/*Program to multiply two rectangular matrices and display the resultant matrix.*/
 #include<stdio.h>
 #define ROW 20
 #define COL 20

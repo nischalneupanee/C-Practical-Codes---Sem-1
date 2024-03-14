@@ -36,9 +36,6 @@ void main()
         }
         printf("\n");
         
-    }
-    
-    
-    
+    }  
     
 }

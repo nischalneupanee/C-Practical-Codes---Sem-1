@@ -1,5 +1,4 @@
-//Program to convert a 4 × 4 matrix to lower triangular and display the result in matrix form
-/*Program to convert a 4 × 4 matrix to upper triangular and display the result in matrix form*/
+/*Program to convert a 4 × 4 matrix to lower triangular and display the result in matrix form*/
 #include<stdio.h>
 void main()
 {
@@ -27,7 +26,7 @@ void main()
         }
         
     }
-    printf("The upper triangular matrix:\n");
+    printf("The lower triangular matrix:\n");
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)

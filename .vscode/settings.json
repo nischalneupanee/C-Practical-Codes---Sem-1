@@ -3,6 +3,7 @@
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "functional": "c"
     }
 }
